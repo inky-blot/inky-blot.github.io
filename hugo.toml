@@ -1,4 +1,4 @@
-baseURL = 'https://inky-blot.github.io/'
+baseURL = 'https://inky-blot.github.io/gamefeeldocs/'
 theme = 'hugo-theme-techdoc'
 
 # metadata
