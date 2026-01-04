@@ -1,0 +1,10 @@
+{{ define "main" }}
+{{- if .Site.Home.Content -}}
+{{- .Site.Home.Content -}}
+{{- partial "pagination.html" . -}}
+{{- partial "edit-meta.html" . -}}
+{{- else -}}
+<h1>Welcome, Game Feel students!</h1>
+<p>These are the docs for the UE5 template for this class. Please let TA's know if you need any help.'</p>
+{{- end -}}
+{{- end -}}
